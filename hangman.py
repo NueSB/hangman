@@ -80,8 +80,8 @@ manstate = [
   ]
 
 def draw():
-  print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t"+hint+"\t\t"+manstate[lives])
-  # FIXME: better console clearing
+  print("\n" * 39+"\t\t"+hint+"\t\t"+manstate[lives])
+  #FIXME: actual console clearing
   if sel == "supercalifragilisticexpialidocious":
     print(''.join(wordhide))
   else:
